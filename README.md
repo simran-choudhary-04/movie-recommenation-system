@@ -3,6 +3,11 @@
 A movie recommender built with **pandas, numpy, scikit-learn (TF-IDF + cosine similarity)**
 and deployed as an interactive **Streamlit** app.
 
+## 🌐 Live Demo
+**Try the application here:**
+🔗 https://movie-recommenation-system-3wwklx8pekygjmvwcjpdgp.streamlit.app
+
+
 ## How it works
 
 1. Each movie's **genres, director, cast, keywords, and overview** are combined into one
