@@ -47,7 +47,7 @@ and deployed as an interactive **Streamlit** app.
 ## Project structure
 
 ```
-movie_recommendation-system/
+movie_recommenation-system/
 ├── app.py              # Streamlit UI
 ├── recommender.py       # Core recommendation engine (reusable, no Streamlit dependency)
 ├── data/
