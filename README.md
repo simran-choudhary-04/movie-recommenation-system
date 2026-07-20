@@ -7,25 +7,16 @@ and deployed as an interactive **Streamlit** app.
 **Try the application here:**
 🔗 https://movie-recommenation-system-3wwklx8pekygjmvwcjpdgp.streamlit.app
 
-
-## How it works
 ## 📸 Screenshots
 
-### 🏠 Home Page
+| 🏠 Home Page | 🎬 Movie Recommendations |
+|--------------|--------------------------|
+| ![](screenshots/home.png.png) | ![](screenshots/recommendations.png.png) |
+| 🧩 Quick Taste Quiz | 🎯 Preference-Based Recommendations |
+|---------------------|-------------------------------------|
+| ![](screenshots/quiz.png.png) | ![](screenshots/preference.png.png) |
 
-![Home Page](screenshots/home.png.png)
-
-### 🎬 Movie Recommendations
-
-![Recommendations](screenshots/recommendations.png.png)
-
-### 🧩 Quick Taste Quiz
-
-![Quick Taste Quiz](screenshots/quiz.png.png)
-
-### 🎯 Preference-Based Recommendations
-
-![Preference Mode](screenshots/preference.png.png)
+## How it works
 
 1. Each movie's **genres, director, cast, keywords, and overview** are combined into one
    text "profile" (`recommender.py → _load_data`). Genres/director/cast are weighted more
